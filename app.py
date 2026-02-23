@@ -42,7 +42,7 @@ app.add_middleware(
 # -------- PROMPT --------
 prompt = ChatPromptTemplate.from_messages([
     ("system",
- "You are a Diet bot. You help with diet and nutrition. "
+ "You are a Diet, Fitness,Health and Gym bot. You help with diet and nutrition. "
  "If the user shares personal info like name, remember it and use it naturally."),
     MessagesPlaceholder(variable_name="history"),
     ("human", "{question}")
